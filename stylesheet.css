@@ -1,0 +1,49 @@
+* {
+    background-color: black;
+    font-family: Lucida Console;
+    color: #5AC8ED
+}
+span {
+    color: #ED7F5A;
+}
+span:hover {
+    font-weight: bold;
+}
+.navbar {
+    background-color: #9BD7EB;
+    color: black;
+    border: 1px solid #5AC8ED;
+    margin-top: 3px;
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+}
+.navbar:hover {
+    background-color: #ED7F5A;
+    color: black;
+    border: 1px solid #D4A190;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  width: 50%;
+  margin-top: 3px;
+}
+
+#display {
+    height: 100 px;
+    border: 1px solid #5AC8ED;
+    padding: 20px;
+}
+#time {
+    float: right;
+    text-align: center;
+}
+#selected {
+    background-color: #ED7F5A;
+    color: black;
+    border: 1px solid #D4A190;
+}
