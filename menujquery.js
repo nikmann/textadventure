@@ -1,5 +1,24 @@
-$('.navbar').click(function() {
-    $('#display').text('this is where the relevant info will go');
-    $('.navbar').removeClass('.selected'); //trying to remove selected class here
-    $(this).addClass('.selected'); //so that the most recently clicked is the only one that has it
+$(document).ready(function () {
+    //click to set current menu item
+    $('.navbar').click(function () {
+        $('.navbar').removeClass('selected').filter(this).addClass('selected');
+    });
+    $('#action').click(function () {
+        $('#display').text('action screen');
+    });
+    $('#items').click(function () {
+        $('#display').text('current inventory screen');
+    });
+    $('#people').click(function () {
+        $('#display').text('people you know screen');
+    });
+    $('#status').click(function () {
+        $('#display').text('character status screen');
+    });
+    $('#jobs').click(function () {
+        $('#display').text('active jobs screen');
+    });
+    $('#map').click(function () {
+        $('#display').text('local map screen');
+    });
 });
