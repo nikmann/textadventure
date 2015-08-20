@@ -19,7 +19,7 @@ span:hover {
     width: 80px;
     text-align: center;
 }
-.navbar:hover {
+.navbar:hover, .selected {
     background-color: #ED7F5A;
     color: black;
     border: 1px solid #D4A190;
@@ -34,21 +34,10 @@ input[type="text"] {
 }
 
 #display {
-    height: 100 px;
     border: 1px solid #5AC8ED;
     padding: 20px;
 }
 #time {
     float: right;
-    text-align: center;
-}
-.selected {
-    background-color: #ED7F5A;
-    color: black;
-    border: 1px solid #D4A190;
-    margin-top: 3px;
-    display: inline-block;
-    height: 20px;
-    width: 80px;
     text-align: center;
 }
