@@ -42,8 +42,13 @@ input[type="text"] {
     float: right;
     text-align: center;
 }
-#selected {
+.selected {
     background-color: #ED7F5A;
     color: black;
     border: 1px solid #D4A190;
+    margin-top: 3px;
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    text-align: center;
 }
